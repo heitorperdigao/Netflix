@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz dia dos namorados!</title>
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+
+<div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <div class="swiper-pagination"></div> 
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-scrollbar"></div>
+  </div>
+</head>
+<body> 
+    <header class= "cabecalho"> 
+    
+    
+    <div class="logo">
+        <img src="IMG/LN.png" alt="" width="50px"> 
+    </div>
+    
+    <nav>
+        <a href="#"> Início</a>
+        <a href="#"> Séries</a>
+        <a href="#"> Filmes</a>
+        <a href="#"> Minha Lista</a>
+    </nav>
+    </header>
+
+    <section class="banner">
+
+        <div class="conteudo">
+            <p class="titulo"> Caso Improvável</p>
+            <p class="detalhes">
+               <span> 12 de Junho - 3° Temporada </span>
+               <span class="stars">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+             </span>
+
+             <p class="descricao">
+                 A terceira temporada de caso improvável traz mais uma vez o casal de namorados, que agora estão mais maduros e enfrentando novos desafios. A série continua a explorar o amor, a amizade e os altos. Sais e baixos de um relacionamento, com muito humor e emoção. A química entre os protagonistas é inegável, e a trama promete surpreender os fãs com reviravoltas inesperadas. Prepare-se para rir, chorar e se apaixonar novamente por essa história envolvente.
+            </p>
+            
+        <div class="botoes">
+            <button> <i class="fa-solid fa-play"></i>Continuar </button>
+            <button><i class="fa-solid fa-star"></i>Favorito</button>
+
+
+        </div>
+    </p>
+
+
+        </div>
+
+
+  </section class="momentos">
+
+  <h2> Nossos Melhores Momentos</h2>
+ 
+      <div class="swiper">
+        <div class="swiper-wrapper">
+         
+         <div class="swiper-slide"><img src="IMG/foto11.png" ></div>
+         <div class="swiper-slide"><img src="IMG/foto2.png" ></div>
+         <div class="swiper-slide"><img src="IMG/foto3.png"  ></div>
+         <div class="swiper-slide"><img src="IMG/foto4.png"  ></div>
+         <div class="swiper-slide"><img src="IMG/foto5.png"  ></div>
+         <div class="swiper-slide"><img src="IMG/foto6.png"  ></div>
+         <div class="swiper-slide"><img src="IMG/foto7.png"  ></div>
+         <div class="swiper-slide"><img src="IMG/foto8.png"  ></div>
+         <div class="swiper-slide"><img src="IMG/foto9.png"  ></div>
+         <div class="swiper-slide"><img src="IMG/foto12.png"  ></div>
+      
+       </div>
+      </div>
+  
+      <section>
+
+
+
+
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script> src= "script.js"</script>
+ 
+ <script>
+const swiper = new Swiper('.swiper', {
+  
+  loop: true,
+autoplay:{
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+ 
+slidesPerView: 2,
+spaceBetween: 10,
+loop: true,
+breakpoints: {
+    600: {
+      loop: true,
+      slidesPerView: 3, 
+      spaceBetween : 15,
+    },
+    900: {
+      loop: true,
+      slidesPerView: 4, 
+      spaceBetween : 40,
+    },
+       
+  },
+
+
+
+
+});
+</script>
+
+</body>
+</html>
